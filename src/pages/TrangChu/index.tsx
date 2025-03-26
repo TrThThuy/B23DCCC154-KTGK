@@ -2,6 +2,7 @@ import { Card } from 'antd';
 import './components/style.less';
 import { unitName } from '@/services/base/constant';
 import { useModel } from 'umi';
+import ProfileCard from '../../components/ProfileCard'
 
 const TrangChu = () => {
 	const { data } = useModel('randomuser');
@@ -15,6 +16,7 @@ const TrangChu = () => {
 				<h1 className='title'>THỰC HÀNH LẬP TRÌNH WEB</h1>
 				<h2 className='sub-title'>{unitName.toUpperCase()}</h2>
 			</div>
+			<ProfileCard/>
 		</Card>
 	);
 };
