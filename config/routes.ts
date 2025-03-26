@@ -43,6 +43,12 @@
 		component: './TodoList',
 	},
 
+	{
+		path: '/',
+		name: 'TodoLEmployee Management',
+		component: './Employee Management',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

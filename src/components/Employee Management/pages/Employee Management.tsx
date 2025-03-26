@@ -1,10 +1,10 @@
 // src/pages/EmployeeManagement.tsx
 import React, { useEffect, useState } from 'react';
 import { Button, Modal, notification } from 'antd';
-import EmployeeList from './components/Employee List';
-import EmployeeForm from './components/EmployeeForm';
-import { Employee } from './models/Employee';
-import { getEmployees, addEmployee, editEmployee } from './services/Employee Service';
+import EmployeeList from '../components/Employee List';
+import EmployeeForm from '../components/EmployeeForm';
+import { Employee } from '../models/Employee';
+import { getEmployees, addEmployee, editEmployee } from '../services/Employee Service';
 
 const EmployeeManagement: React.FC = () => {
     const [employees, setEmployees] = useState<Employee[]>([]);

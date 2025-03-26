@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Light background color */
+}
+
+/* Header styles */
+.ant-layout-header {
+    background: #001529; /* Dark background for header */
+}
+
+/* Content styles */
+.ant-layout-content {
+    background: #fff; /* White background for content */
+    padding: 24px;
+    min-height: 280px; /* Minimum height for content area */
+}
+
+/* Footer styles */
+.ant-layout-footer {
+    text-align: center;
+    background: #001529; /* Dark background for footer */
+    color: white; /* White text color for footer */
+}
+
+/* Button styles */
+.ant-btn {
+    margin-right: 8px; /* Space between buttons */
+}
+
+/* Table styles */
+.ant-table {
+    margin-top: 20px; /* Space above the table */
+}
+
+/* Form styles */
+.ant-form-item {
+    margin-bottom: 16px; /* Space between form items */
+}
+
+/* Input styles */
+.ant-input {
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Select styles */
+.ant-select {
+    border-radius: 4px; /* Rounded corners for selects */
+}
+
+/* Notification styles */
+.ant-notification {
+    z-index: 9999; /* Ensure notifications are on top */
+}
